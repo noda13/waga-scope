@@ -1,0 +1,101 @@
+{
+  "profile": {
+    "code": "603A",
+    "name": "アイ・グリッド・ソリューションズ",
+    "sector33Name": "電気･ガス業",
+    "sector33Code": "4050",
+    "sector17Code": "11",
+    "marketSegment": "グロース",
+    "scaleCategory": "-",
+    "updatedAt": "2026-11-09T19:09:35.059Z",
+    "snapshots": [
+      {
+        "id": "static-603A",
+        "snapshotAt": "2026-11-09T19:09:35.059Z",
+        "marketCap": 26233870000,
+        "netCash": null,
+        "netCashRatio": null,
+        "cashNeutralPer": null,
+        "per": 13.522613402061856,
+        "pbr": 3.074762072198781
+      }
+    ]
+  },
+  "history": [
+    {
+      "id": "static-603A-2026-FY",
+      "code": "603A",
+      "fiscalYear": 2026,
+      "typeOfCurrentPeriod": "FY",
+      "disclosedDate": "2026-08-14T00:00:00.000Z",
+      "periodEndDate": "2026-06-30T00:00:00.000Z",
+      "netSales": 25699000000,
+      "operatingProfit": 3581000000,
+      "ordinaryProfit": null,
+      "profit": 1940000000,
+      "totalAssets": 44294000000,
+      "equity": 8532000000,
+      "cashAndEquivalents": 6420000000,
+      "sharesOutstanding": 32110000
+    }
+  ],
+  "strategies": {
+    "kiyohara": {
+      "score": 0,
+      "components": {
+        "ncrScore": 0,
+        "cnperScore": 0,
+        "sizeBonus": 0
+      },
+      "reason": "NCR=null, CNPER=null, 262億円 → 対象外"
+    },
+    "graham": {
+      "score": 27,
+      "components": {
+        "grahamProductScore": 15,
+        "pbrScore": 0,
+        "perScore": 12,
+        "ncrBonus": 0
+      },
+      "reason": "PBR×PER=41.6, PBR=3.07, PER=13.5 → 対象外"
+    },
+    "buffett": {
+      "score": 50,
+      "components": {
+        "roeScore": 50,
+        "qualityBonus": 0,
+        "valuationPenalty": 0
+      },
+      "reason": "ROE=22.7%, PBR=3.07 → 良好"
+    },
+    "lynch": {
+      "score": 34,
+      "components": {
+        "perScore": 38,
+        "sizeBonus": 4,
+        "pbrPenalty": -8
+      },
+      "reason": "PER=13.5, 時価総額262億 → 様子見"
+    },
+    "dividend": {
+      "score": 25,
+      "components": {
+        "earningsYieldScore": 35,
+        "stabilityBonus": 0,
+        "pbrPenalty": -10
+      },
+      "reason": "益回り7.40%, NCR=null, PBR=3.07 → 様子見"
+    },
+    "composite": {
+      "score": 27,
+      "components": {
+        "kiyohara": 0,
+        "graham": 27,
+        "buffett": 50,
+        "lynch": 34,
+        "dividend": 25
+      },
+      "reason": "総合(均等加重): 清原流:0, グレアム流:27, バフェット流:50, リンチ流:34, 配当・インカム流:25"
+    }
+  }
+}

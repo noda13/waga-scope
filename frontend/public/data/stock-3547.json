@@ -1,53 +1,53 @@
 {
   "profile": {
     "code": "3547",
-    "name": "串カツ田中ホールディングス",
+    "name": "ユニシアホールディングス",
     "sector33Name": "小売業",
     "sector33Code": "6100",
     "sector17Code": "14",
     "marketSegment": "スタンダード",
     "scaleCategory": "TOPIX Small 2",
-    "updatedAt": "2026-05-13T13:41:22.994Z",
+    "updatedAt": "2026-11-09T19:09:34.817Z",
     "snapshots": [
       {
         "id": "static-3547",
-        "snapshotAt": "2026-05-13T13:41:22.994Z",
-        "marketCap": 19142805411,
-        "netCash": -5568000000,
-        "netCashRatio": -0.2908664576823452,
-        "cashNeutralPer": 33.21344813306452,
-        "per": 25.72957716532258,
-        "pbr": 4.648568579650315
+        "snapshotAt": "2026-11-09T19:09:34.817Z",
+        "marketCap": 19973021514,
+        "netCash": null,
+        "netCashRatio": null,
+        "cashNeutralPer": null,
+        "per": 54.57109703278689,
+        "pbr": 2.7023435954539305
       }
     ]
   },
   "history": [
     {
-      "id": "static-3547-2025-FY",
+      "id": "static-3547-2026-2Q",
       "code": "3547",
-      "fiscalYear": 2025,
-      "typeOfCurrentPeriod": "FY",
-      "disclosedDate": "2026-01-14T00:00:00.000Z",
-      "periodEndDate": "2025-11-30T00:00:00.000Z",
-      "netSales": 21091000000,
-      "operatingProfit": 1185000000,
+      "fiscalYear": 2026,
+      "typeOfCurrentPeriod": "2Q",
+      "disclosedDate": "2026-07-15T00:00:00.000Z",
+      "periodEndDate": "2026-05-31T00:00:00.000Z",
+      "netSales": 17859000000,
+      "operatingProfit": 813000000,
       "ordinaryProfit": null,
-      "profit": 744000000,
-      "totalAssets": 9686000000,
-      "equity": 4118000000,
-      "cashAndEquivalents": 3440000000,
-      "sharesOutstanding": 9190017
+      "profit": 366000000,
+      "totalAssets": 25343000000,
+      "equity": 7391000000,
+      "cashAndEquivalents": 3849931000,
+      "sharesOutstanding": 10843117
     }
   ],
   "strategies": {
     "kiyohara": {
-      "score": 1,
+      "score": 0,
       "components": {
-        "ncrScore": 9,
-        "cnperScore": -8,
+        "ncrScore": 0,
+        "cnperScore": 0,
         "sizeBonus": 0
       },
-      "reason": "NCR=-0.29, CNPER=33.2, 191億円 → 対象外"
+      "reason": "NCR=null, CNPER=null, 200億円 → 対象外"
     },
     "graham": {
       "score": 0,
@@ -57,45 +57,45 @@
         "perScore": 0,
         "ncrBonus": 0
       },
-      "reason": "PBR×PER=119.6, PBR=4.65, PER=25.7 → 対象外"
+      "reason": "PBR×PER=147.5, PBR=2.70, PER=54.6 → 対象外"
     },
     "buffett": {
-      "score": 40,
+      "score": 0,
       "components": {
-        "roeScore": 40,
+        "roeScore": 0,
         "qualityBonus": 0,
         "valuationPenalty": 0
       },
-      "reason": "ROE=18.1%, PBR=4.65 → 様子見"
+      "reason": "ROE=5.0%, PBR=2.70 → 対象外"
     },
     "lynch": {
       "score": 4,
       "components": {
-        "perScore": 8,
+        "perScore": 0,
         "sizeBonus": 4,
-        "pbrPenalty": -8
+        "pbrPenalty": 0
       },
-      "reason": "PER=25.7, 時価総額191億 → 対象外"
+      "reason": "PER=54.6, 時価総額200億 → 対象外"
     },
     "dividend": {
-      "score": 8,
+      "score": 0,
       "components": {
-        "earningsYieldScore": 18,
+        "earningsYieldScore": 5,
         "stabilityBonus": 0,
         "pbrPenalty": -10
       },
-      "reason": "益回り3.89%, NCR=-0.29, PBR=4.65 → 対象外"
+      "reason": "益回り1.83%, NCR=null, PBR=2.70 → 対象外"
     },
     "composite": {
-      "score": 11,
+      "score": 1,
       "components": {
-        "kiyohara": 1,
+        "kiyohara": 0,
         "graham": 0,
-        "buffett": 40,
+        "buffett": 0,
         "lynch": 4,
-        "dividend": 8
+        "dividend": 0
       },
-      "reason": "総合(均等加重): 清原流:1, グレアム流:0, バフェット流:40, リンチ流:4, 配当・インカム流:8"
+      "reason": "総合(均等加重): 清原流:0, グレアム流:0, バフェット流:0, リンチ流:4, 配当・インカム流:0"
     }
   }
 }

@@ -7,51 +7,67 @@
     "sector17Code": "8",
     "marketSegment": "プライム",
     "scaleCategory": "TOPIX Small 1",
-    "updatedAt": "2026-05-13T13:41:23.217Z",
+    "updatedAt": "2026-11-09T19:09:35.066Z",
     "snapshots": [
       {
         "id": "static-6104",
-        "snapshotAt": "2026-05-13T13:41:23.217Z",
-        "marketCap": 104283508140,
-        "netCash": -63638000000,
-        "netCashRatio": -0.6102403067852911,
-        "cashNeutralPer": 86.37937661522633,
-        "per": 53.643779907407406,
-        "pbr": 0.8683924133968424
+        "snapshotAt": "2026-11-09T19:09:35.066Z",
+        "marketCap": 101209211360,
+        "netCash": null,
+        "netCashRatio": null,
+        "cashNeutralPer": null,
+        "per": 98.45254023346304,
+        "pbr": 0.8537907674138062
       }
     ]
   },
   "history": [
     {
+      "id": "static-6104-2026-1Q",
+      "code": "6104",
+      "fiscalYear": 2026,
+      "typeOfCurrentPeriod": "1Q",
+      "disclosedDate": "2026-07-31T00:00:00.000Z",
+      "periodEndDate": "2026-06-30T00:00:00.000Z",
+      "netSales": 21119000000,
+      "operatingProfit": -652000000,
+      "ordinaryProfit": null,
+      "profit": -19000000,
+      "totalAssets": 173511000000,
+      "equity": 117486000000,
+      "cashAndEquivalents": null,
+      "sharesOutstanding": 23646935
+    },
+    {
+      "id": "static-6104-2026-FY",
+      "code": "6104",
+      "fiscalYear": 2026,
+      "typeOfCurrentPeriod": "FY",
+      "disclosedDate": "2026-05-25T00:00:00.000Z",
+      "periodEndDate": "2026-03-31T00:00:00.000Z",
+      "netSales": 132815000000,
+      "operatingProfit": 4367000000,
+      "ordinaryProfit": null,
+      "profit": 1028000000,
+      "totalAssets": 173476000000,
+      "equity": 118541000000,
+      "cashAndEquivalents": 42720000000,
+      "sharesOutstanding": 23647012
+    },
+    {
       "id": "static-6104-2025-3Q",
       "code": "6104",
       "fiscalYear": 2025,
       "typeOfCurrentPeriod": "3Q",
-      "disclosedDate": "2026-01-30T00:00:00.000Z",
+      "disclosedDate": "2026-05-25T00:00:00.000Z",
       "periodEndDate": "2025-12-31T00:00:00.000Z",
       "netSales": 92719000000,
-      "operatingProfit": 1875000000,
+      "operatingProfit": 1872000000,
       "ordinaryProfit": null,
-      "profit": 1944000000,
-      "totalAssets": 183726000000,
-      "equity": 120088000000,
+      "profit": -466000000,
+      "totalAssets": 183670000000,
+      "equity": 117820000000,
       "cashAndEquivalents": null,
-      "sharesOutstanding": 23647054
-    },
-    {
-      "id": "static-6104-2025-2Q",
-      "code": "6104",
-      "fiscalYear": 2025,
-      "typeOfCurrentPeriod": "2Q",
-      "disclosedDate": "2025-11-11T00:00:00.000Z",
-      "periodEndDate": "2025-09-30T00:00:00.000Z",
-      "netSales": 67640000000,
-      "operatingProfit": 2037000000,
-      "ordinaryProfit": null,
-      "profit": 1759000000,
-      "totalAssets": 187425000000,
-      "equity": 118671000000,
-      "cashAndEquivalents": 58584000000,
       "sharesOutstanding": 23647054
     }
   ],
@@ -59,11 +75,11 @@
     "kiyohara": {
       "score": 0,
       "components": {
-        "ncrScore": 7,
-        "cnperScore": -15,
+        "ncrScore": 0,
+        "cnperScore": 0,
         "sizeBonus": -10
       },
-      "reason": "NCR=-0.61, CNPER=86.4, 大型株ペナルティ → 対象外"
+      "reason": "NCR=null, CNPER=null, 大型株ペナルティ → 対象外"
     },
     "graham": {
       "score": 20,
@@ -73,7 +89,7 @@
         "perScore": 0,
         "ncrBonus": 0
       },
-      "reason": "PBR×PER=46.6, PBR=0.87, PER=53.6 → 対象外"
+      "reason": "PBR×PER=84.1, PBR=0.85, PER=98.5 → 対象外"
     },
     "buffett": {
       "score": 0,
@@ -82,7 +98,7 @@
         "qualityBonus": 0,
         "valuationPenalty": 0
       },
-      "reason": "ROE=1.6%, PBR=0.87 → 対象外"
+      "reason": "ROE=0.9%, PBR=0.85 → 対象外"
     },
     "lynch": {
       "score": 0,
@@ -91,7 +107,7 @@
         "sizeBonus": 0,
         "pbrPenalty": 0
       },
-      "reason": "PER=53.6, 時価総額1043億 → 対象外"
+      "reason": "PER=98.5, 時価総額1012億 → 対象外"
     },
     "dividend": {
       "score": 5,
@@ -100,7 +116,7 @@
         "stabilityBonus": 0,
         "pbrPenalty": 0
       },
-      "reason": "益回り1.86%, NCR=-0.61, PBR=0.87 → 対象外"
+      "reason": "益回り1.02%, NCR=null, PBR=0.85 → 対象外"
     },
     "composite": {
       "score": 5,

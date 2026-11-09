@@ -7,52 +7,52 @@
     "sector17Code": "9",
     "marketSegment": "プライム",
     "scaleCategory": "TOPIX Mid400",
-    "updatedAt": "2026-05-13T13:41:23.419Z",
+    "updatedAt": "2026-11-09T19:09:35.300Z",
     "snapshots": [
       {
         "id": "static-8086",
-        "snapshotAt": "2026-05-13T13:41:23.419Z",
-        "marketCap": 254103381040,
-        "netCash": -885136000000,
-        "netCashRatio": -3.4833696284453026,
-        "cashNeutralPer": 68.28334818029249,
-        "per": 15.230363284584033,
-        "pbr": 0.8072950449073736
+        "snapshotAt": "2026-11-09T19:09:35.300Z",
+        "marketCap": 258180622906,
+        "netCash": null,
+        "netCashRatio": null,
+        "cashNeutralPer": null,
+        "per": 19.118825748370853,
+        "pbr": 0.7712133120631355
       }
     ]
   },
   "history": [
     {
-      "id": "static-8086-2025-3Q",
+      "id": "static-8086-2026-1Q",
       "code": "8086",
-      "fiscalYear": 2025,
-      "typeOfCurrentPeriod": "3Q",
-      "disclosedDate": "2026-02-09T00:00:00.000Z",
-      "periodEndDate": "2025-12-31T00:00:00.000Z",
-      "netSales": 487305000000,
-      "operatingProfit": 26747000000,
+      "fiscalYear": 2026,
+      "typeOfCurrentPeriod": "1Q",
+      "disclosedDate": "2026-08-10T00:00:00.000Z",
+      "periodEndDate": "2026-06-30T00:00:00.000Z",
+      "netSales": 167545000000,
+      "operatingProfit": 7710000000,
       "ordinaryProfit": null,
-      "profit": 16684000000,
-      "totalAssets": 1199895000000,
-      "equity": 314759000000,
+      "profit": 3839000000,
+      "totalAssets": 1220745000000,
+      "equity": 343891000000,
       "cashAndEquivalents": null,
-      "sharesOutstanding": 163095880
+      "sharesOutstanding": 166214662
     },
     {
-      "id": "static-8086-2025-2Q",
+      "id": "static-8086-2026-FY",
       "code": "8086",
-      "fiscalYear": 2025,
-      "typeOfCurrentPeriod": "2Q",
-      "disclosedDate": "2025-11-10T00:00:00.000Z",
-      "periodEndDate": "2025-09-30T00:00:00.000Z",
-      "netSales": 317382000000,
-      "operatingProfit": 15337000000,
+      "fiscalYear": 2026,
+      "typeOfCurrentPeriod": "FY",
+      "disclosedDate": "2026-05-12T00:00:00.000Z",
+      "periodEndDate": "2026-03-31T00:00:00.000Z",
+      "netSales": 660538000000,
+      "operatingProfit": 37624000000,
       "ordinaryProfit": null,
-      "profit": 5905000000,
-      "totalAssets": 1153628000000,
-      "equity": 297744000000,
-      "cashAndEquivalents": 104919000000,
-      "sharesOutstanding": 163095544
+      "profit": 13504000000,
+      "totalAssets": 1213290000000,
+      "equity": 334772000000,
+      "cashAndEquivalents": 88366000000,
+      "sharesOutstanding": 163095782
     }
   ],
   "strategies": {
@@ -60,29 +60,29 @@
       "score": 0,
       "components": {
         "ncrScore": 0,
-        "cnperScore": -15,
+        "cnperScore": 0,
         "sizeBonus": -10
       },
-      "reason": "NCR=-3.48, CNPER=68.3, 大型株ペナルティ → 対象外"
+      "reason": "NCR=null, CNPER=null, 大型株ペナルティ → 対象外"
     },
     "graham": {
-      "score": 72,
+      "score": 67,
       "components": {
-        "grahamProductScore": 47,
+        "grahamProductScore": 42,
         "pbrScore": 20,
         "perScore": 5,
         "ncrBonus": 0
       },
-      "reason": "PBR×PER=12.3, PBR=0.81, PER=15.2 → 強い買い候補"
+      "reason": "PBR×PER=14.7, PBR=0.77, PER=19.1 → 買い候補"
     },
     "buffett": {
-      "score": 10,
+      "score": 0,
       "components": {
-        "roeScore": 10,
+        "roeScore": 0,
         "qualityBonus": 0,
         "valuationPenalty": 0
       },
-      "reason": "ROE=5.3%, PBR=0.81 → 対象外"
+      "reason": "ROE=4.0%, PBR=0.77 → 対象外"
     },
     "lynch": {
       "score": 22,
@@ -91,7 +91,7 @@
         "sizeBonus": 0,
         "pbrPenalty": 0
       },
-      "reason": "PER=15.2, 時価総額2541億 → 対象外"
+      "reason": "PER=19.1, 時価総額2582億 → 対象外"
     },
     "dividend": {
       "score": 35,
@@ -100,18 +100,18 @@
         "stabilityBonus": 0,
         "pbrPenalty": 0
       },
-      "reason": "益回り6.57%, NCR=-3.48, PBR=0.81 → 様子見"
+      "reason": "益回り5.23%, NCR=null, PBR=0.77 → 様子見"
     },
     "composite": {
-      "score": 28,
+      "score": 25,
       "components": {
         "kiyohara": 0,
-        "graham": 72,
-        "buffett": 10,
+        "graham": 67,
+        "buffett": 0,
         "lynch": 22,
         "dividend": 35
       },
-      "reason": "総合(均等加重): 清原流:0, グレアム流:72, バフェット流:10, リンチ流:22, 配当・インカム流:35"
+      "reason": "総合(均等加重): 清原流:0, グレアム流:67, バフェット流:0, リンチ流:22, 配当・インカム流:35"
     }
   }
 }

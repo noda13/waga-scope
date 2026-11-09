@@ -1,0 +1,101 @@
+{
+  "profile": {
+    "code": "584A",
+    "name": "ＬｉＮＫＸ",
+    "sector33Name": "情報･通信業",
+    "sector33Code": "5250",
+    "sector17Code": "10",
+    "marketSegment": "グロース",
+    "scaleCategory": "-",
+    "updatedAt": "2026-11-09T19:09:35.039Z",
+    "snapshots": [
+      {
+        "id": "static-584A",
+        "snapshotAt": "2026-11-09T19:09:35.039Z",
+        "marketCap": 22227498000,
+        "netCash": null,
+        "netCashRatio": null,
+        "cashNeutralPer": null,
+        "per": 74.8400606060606,
+        "pbr": 12.855695777906304
+      }
+    ]
+  },
+  "history": [
+    {
+      "id": "static-584A-2026-FY",
+      "code": "584A",
+      "fiscalYear": 2026,
+      "typeOfCurrentPeriod": "FY",
+      "disclosedDate": "2026-08-14T00:00:00.000Z",
+      "periodEndDate": "2026-06-30T00:00:00.000Z",
+      "netSales": 1909000000,
+      "operatingProfit": 456000000,
+      "ordinaryProfit": null,
+      "profit": 297000000,
+      "totalAssets": 2095000000,
+      "equity": 1729000000,
+      "cashAndEquivalents": 1755000000,
+      "sharesOutstanding": 6797400
+    }
+  ],
+  "strategies": {
+    "kiyohara": {
+      "score": 0,
+      "components": {
+        "ncrScore": 0,
+        "cnperScore": 0,
+        "sizeBonus": 0
+      },
+      "reason": "NCR=null, CNPER=null, 222億円 → 対象外"
+    },
+    "graham": {
+      "score": 0,
+      "components": {
+        "grahamProductScore": 0,
+        "pbrScore": 0,
+        "perScore": 0,
+        "ncrBonus": 0
+      },
+      "reason": "PBR×PER=962.1, PBR=12.86, PER=74.8 → 対象外"
+    },
+    "buffett": {
+      "score": 30,
+      "components": {
+        "roeScore": 40,
+        "qualityBonus": 0,
+        "valuationPenalty": -10
+      },
+      "reason": "ROE=17.2%, PBR=12.86 → 様子見"
+    },
+    "lynch": {
+      "score": 0,
+      "components": {
+        "perScore": 0,
+        "sizeBonus": 4,
+        "pbrPenalty": -8
+      },
+      "reason": "PER=74.8, 時価総額222億 → 対象外"
+    },
+    "dividend": {
+      "score": 0,
+      "components": {
+        "earningsYieldScore": 5,
+        "stabilityBonus": 0,
+        "pbrPenalty": -10
+      },
+      "reason": "益回り1.34%, NCR=null, PBR=12.86 → 対象外"
+    },
+    "composite": {
+      "score": 6,
+      "components": {
+        "kiyohara": 0,
+        "graham": 0,
+        "buffett": 30,
+        "lynch": 0,
+        "dividend": 0
+      },
+      "reason": "総合(均等加重): 清原流:0, グレアム流:0, バフェット流:30, リンチ流:0, 配当・インカム流:0"
+    }
+  }
+}

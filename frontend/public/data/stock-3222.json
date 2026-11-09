@@ -7,47 +7,47 @@
     "sector17Code": "14",
     "marketSegment": "スタンダード",
     "scaleCategory": "TOPIX Small 1",
-    "updatedAt": "2026-05-13T13:41:22.960Z",
+    "updatedAt": "2026-11-09T19:09:34.778Z",
     "snapshots": [
       {
         "id": "static-3222",
-        "snapshotAt": "2026-05-13T13:41:22.960Z",
-        "marketCap": 190304132025,
-        "netCash": -190811000000,
-        "netCashRatio": -1.0026634627929856,
+        "snapshotAt": "2026-11-09T19:09:34.778Z",
+        "marketCap": 168835651835,
+        "netCash": null,
+        "netCashRatio": null,
         "cashNeutralPer": null,
         "per": null,
-        "pbr": 0.9598715425451427
+        "pbr": 0.8203431878519613
       }
     ]
   },
   "history": [
     {
-      "id": "static-3222-2025-3Q",
+      "id": "static-3222-2026-1Q",
       "code": "3222",
-      "fiscalYear": 2025,
-      "typeOfCurrentPeriod": "3Q",
-      "disclosedDate": "2026-01-07T00:00:00.000Z",
-      "periodEndDate": "2025-11-30T00:00:00.000Z",
-      "netSales": 715938000000,
-      "operatingProfit": 384000000,
+      "fiscalYear": 2026,
+      "typeOfCurrentPeriod": "1Q",
+      "disclosedDate": "2026-07-06T00:00:00.000Z",
+      "periodEndDate": "2026-05-31T00:00:00.000Z",
+      "netSales": 273635000000,
+      "operatingProfit": -805000000,
       "ordinaryProfit": null,
-      "profit": -1868000000,
-      "totalAssets": 389071000000,
-      "equity": 198260000000,
+      "profit": -2077000000,
+      "totalAssets": 421464000000,
+      "equity": 205811000000,
       "cashAndEquivalents": null,
-      "sharesOutstanding": 195584925
+      "sharesOutstanding": 207160309
     }
   ],
   "strategies": {
     "kiyohara": {
       "score": 0,
       "components": {
-        "ncrScore": 5,
+        "ncrScore": 0,
         "cnperScore": 0,
         "sizeBonus": -10
       },
-      "reason": "NCR=-1.00, CNPER=null, 大型株ペナルティ、赤字キャップ → 対象外"
+      "reason": "NCR=null, CNPER=null, 大型株ペナルティ、赤字キャップ → 対象外"
     },
     "graham": {
       "score": 0,
@@ -57,7 +57,7 @@
         "perScore": null,
         "ncrBonus": null
       },
-      "reason": "データ不足（PER/PBR/純資産が必要）"
+      "reason": "データ不足（PER/PBRが必要）"
     },
     "buffett": {
       "score": 0,
@@ -66,7 +66,7 @@
         "qualityBonus": 0,
         "valuationPenalty": 0
       },
-      "reason": "ROE=n/a, PBR=0.96、赤字キャップ → 対象外"
+      "reason": "ROE=n/a, PBR=0.82、赤字キャップ → 対象外"
     },
     "lynch": {
       "score": 0,

@@ -2,39 +2,39 @@
   "profile": {
     "code": "4433",
     "name": "ヒト・コミュニケーションズ・ホールディングス",
-    "sector33Name": "情報･通信業",
-    "sector33Code": "5250",
+    "sector33Name": "サービス業",
+    "sector33Code": "9050",
     "sector17Code": "10",
     "marketSegment": "プライム",
     "scaleCategory": "TOPIX Small 2",
-    "updatedAt": "2026-05-13T13:41:23.090Z",
+    "updatedAt": "2026-11-09T19:09:34.927Z",
     "snapshots": [
       {
         "id": "static-4433",
-        "snapshotAt": "2026-05-13T13:41:23.090Z",
-        "marketCap": 17003807200,
-        "netCash": -23712000000,
-        "netCashRatio": -1.3945112245215294,
-        "cashNeutralPer": 573.4620732394366,
-        "per": 239.49024225352113,
-        "pbr": 0.9139866265319286
+        "snapshotAt": "2026-11-09T19:09:34.927Z",
+        "marketCap": 16254426400,
+        "netCash": null,
+        "netCashRatio": null,
+        "cashNeutralPer": null,
+        "per": 62.277495785440614,
+        "pbr": 0.8740818670681867
       }
     ]
   },
   "history": [
     {
-      "id": "static-4433-2025-1Q",
+      "id": "static-4433-2026-3Q",
       "code": "4433",
-      "fiscalYear": 2025,
-      "typeOfCurrentPeriod": "1Q",
-      "disclosedDate": "2026-01-14T00:00:00.000Z",
-      "periodEndDate": "2025-11-30T00:00:00.000Z",
-      "netSales": 16211000000,
-      "operatingProfit": 341000000,
+      "fiscalYear": 2026,
+      "typeOfCurrentPeriod": "3Q",
+      "disclosedDate": "2026-07-15T00:00:00.000Z",
+      "periodEndDate": "2026-05-31T00:00:00.000Z",
+      "netSales": 47531000000,
+      "operatingProfit": 1102000000,
       "ordinaryProfit": null,
-      "profit": 71000000,
-      "totalAssets": 42316000000,
-      "equity": 18604000000,
+      "profit": 261000000,
+      "totalAssets": 41652000000,
+      "equity": 18596000000,
       "cashAndEquivalents": null,
       "sharesOutstanding": 17842400
     }
@@ -43,11 +43,11 @@
     "kiyohara": {
       "score": 0,
       "components": {
-        "ncrScore": 3,
-        "cnperScore": -15,
+        "ncrScore": 0,
+        "cnperScore": 0,
         "sizeBonus": 0
       },
-      "reason": "NCR=-1.39, CNPER=573.5, 170億円 → 対象外"
+      "reason": "NCR=null, CNPER=null, 163億円 → 対象外"
     },
     "graham": {
       "score": 20,
@@ -57,7 +57,7 @@
         "perScore": 0,
         "ncrBonus": 0
       },
-      "reason": "PBR×PER=218.9, PBR=0.91, PER=239.5 → 対象外"
+      "reason": "PBR×PER=54.4, PBR=0.87, PER=62.3 → 対象外"
     },
     "buffett": {
       "score": 0,
@@ -66,7 +66,7 @@
         "qualityBonus": 0,
         "valuationPenalty": 0
       },
-      "reason": "ROE=0.4%, PBR=0.91 → 対象外"
+      "reason": "ROE=1.4%, PBR=0.87 → 対象外"
     },
     "lynch": {
       "score": 4,
@@ -75,7 +75,7 @@
         "sizeBonus": 4,
         "pbrPenalty": 0
       },
-      "reason": "PER=239.5, 時価総額170億 → 対象外"
+      "reason": "PER=62.3, 時価総額163億 → 対象外"
     },
     "dividend": {
       "score": 5,
@@ -84,7 +84,7 @@
         "stabilityBonus": 0,
         "pbrPenalty": 0
       },
-      "reason": "益回り0.42%, NCR=-1.39, PBR=0.91 → 対象外"
+      "reason": "益回り1.61%, NCR=null, PBR=0.87 → 対象外"
     },
     "composite": {
       "score": 6,

@@ -7,36 +7,52 @@
     "sector17Code": "14",
     "marketSegment": "スタンダード",
     "scaleCategory": "-",
-    "updatedAt": "2026-05-13T13:41:22.954Z",
+    "updatedAt": "2026-11-09T19:09:34.772Z",
     "snapshots": [
       {
         "id": "static-3174",
-        "snapshotAt": "2026-05-13T13:41:22.954Z",
-        "marketCap": 1705705854,
-        "netCash": -6010000000,
-        "netCashRatio": -3.5234680035283503,
+        "snapshotAt": "2026-11-09T19:09:34.772Z",
+        "marketCap": 1025918309,
+        "netCash": null,
+        "netCashRatio": null,
         "cashNeutralPer": null,
         "per": null,
-        "pbr": 11.525039554054054
+        "pbr": 5.181405601010101
       }
     ]
   },
   "history": [
     {
-      "id": "static-3174-2025-1Q",
+      "id": "static-3174-2025-FY",
       "code": "3174",
       "fiscalYear": 2025,
-      "typeOfCurrentPeriod": "1Q",
-      "disclosedDate": "2026-01-14T00:00:00.000Z",
-      "periodEndDate": "2025-11-30T00:00:00.000Z",
-      "netSales": 1815000000,
-      "operatingProfit": -138000000,
+      "typeOfCurrentPeriod": "FY",
+      "disclosedDate": "2026-08-13T00:00:00.000Z",
+      "periodEndDate": "2025-08-31T00:00:00.000Z",
+      "netSales": 8841000000,
+      "operatingProfit": -404000000,
       "ordinaryProfit": null,
-      "profit": -153000000,
-      "totalAssets": 6158000000,
-      "equity": 148000000,
+      "profit": -808000000,
+      "totalAssets": 5650000000,
+      "equity": 198000000,
+      "cashAndEquivalents": 689000000,
+      "sharesOutstanding": 2545703
+    },
+    {
+      "id": "static-3174-2026-3Q",
+      "code": "3174",
+      "fiscalYear": 2026,
+      "typeOfCurrentPeriod": "3Q",
+      "disclosedDate": "2026-07-15T00:00:00.000Z",
+      "periodEndDate": "2026-05-31T00:00:00.000Z",
+      "netSales": 6332000000,
+      "operatingProfit": -114000000,
+      "ordinaryProfit": null,
+      "profit": -158000000,
+      "totalAssets": 5937000000,
+      "equity": 356000000,
       "cashAndEquivalents": null,
-      "sharesOutstanding": 2694638
+      "sharesOutstanding": 3143978
     }
   ],
   "strategies": {
@@ -47,7 +63,7 @@
         "cnperScore": 0,
         "sizeBonus": 5
       },
-      "reason": "NCR=-3.52, CNPER=null, 17億円、赤字キャップ → 対象外"
+      "reason": "NCR=null, CNPER=null, 10億円、赤字キャップ → 対象外"
     },
     "graham": {
       "score": 0,
@@ -57,7 +73,7 @@
         "perScore": null,
         "ncrBonus": null
       },
-      "reason": "データ不足（PER/PBR/純資産が必要）"
+      "reason": "データ不足（PER/PBRが必要）"
     },
     "buffett": {
       "score": 0,
@@ -66,7 +82,7 @@
         "qualityBonus": 0,
         "valuationPenalty": -10
       },
-      "reason": "ROE=n/a, PBR=11.53、赤字キャップ → 対象外"
+      "reason": "ROE=n/a, PBR=5.18、赤字キャップ → 対象外"
     },
     "lynch": {
       "score": 0,

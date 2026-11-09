@@ -7,57 +7,57 @@
     "sector17Code": "10",
     "marketSegment": "スタンダード",
     "scaleCategory": "-",
-    "updatedAt": "2026-05-13T13:41:23.405Z",
+    "updatedAt": "2026-11-09T19:09:35.283Z",
     "snapshots": [
       {
         "id": "static-7975",
-        "snapshotAt": "2026-05-13T13:41:23.405Z",
-        "marketCap": 4461781850,
-        "netCash": -2450000000,
-        "netCashRatio": -0.5491079757742975,
-        "cashNeutralPer": 246.84935178571428,
-        "per": 159.34935178571428,
-        "pbr": 0.4143941534317823
+        "snapshotAt": "2026-11-09T19:09:35.283Z",
+        "marketCap": 3844221414,
+        "netCash": null,
+        "netCashRatio": null,
+        "cashNeutralPer": null,
+        "per": 41.785015369565215,
+        "pbr": 0.3483662359764386
       }
     ]
   },
   "history": [
     {
-      "id": "static-7975-2025-3Q",
+      "id": "static-7975-2026-1Q",
       "code": "7975",
-      "fiscalYear": 2025,
-      "typeOfCurrentPeriod": "3Q",
-      "disclosedDate": "2026-01-09T00:00:00.000Z",
-      "periodEndDate": "2025-11-30T00:00:00.000Z",
-      "netSales": 6789000000,
-      "operatingProfit": -32000000,
+      "fiscalYear": 2026,
+      "typeOfCurrentPeriod": "1Q",
+      "disclosedDate": "2026-07-03T00:00:00.000Z",
+      "periodEndDate": "2026-05-31T00:00:00.000Z",
+      "netSales": 2880000000,
+      "operatingProfit": 139000000,
       "ordinaryProfit": null,
-      "profit": 28000000,
-      "totalAssets": 13217000000,
-      "equity": 10767000000,
+      "profit": 92000000,
+      "totalAssets": 13675000000,
+      "equity": 11035000000,
       "cashAndEquivalents": null,
-      "sharesOutstanding": 3392990
+      "sharesOutstanding": 3392958
     }
   ],
   "strategies": {
     "kiyohara": {
-      "score": 0,
+      "score": 5,
       "components": {
-        "ncrScore": 7,
-        "cnperScore": -15,
+        "ncrScore": 0,
+        "cnperScore": 0,
         "sizeBonus": 5
       },
-      "reason": "NCR=-0.55, CNPER=246.8, 45億円 → 対象外"
+      "reason": "NCR=null, CNPER=null, 38億円 → 対象外"
     },
     "graham": {
-      "score": 25,
+      "score": 67,
       "components": {
-        "grahamProductScore": 0,
+        "grahamProductScore": 42,
         "pbrScore": 25,
         "perScore": 0,
         "ncrBonus": 0
       },
-      "reason": "PBR×PER=66.0, PBR=0.41, PER=159.3 → 対象外"
+      "reason": "PBR×PER=14.6, PBR=0.35, PER=41.8 → 買い候補"
     },
     "buffett": {
       "score": 0,
@@ -66,7 +66,7 @@
         "qualityBonus": 0,
         "valuationPenalty": 0
       },
-      "reason": "ROE=0.3%, PBR=0.41 → 対象外"
+      "reason": "ROE=0.8%, PBR=0.35 → 対象外"
     },
     "lynch": {
       "score": 10,
@@ -75,7 +75,7 @@
         "sizeBonus": 10,
         "pbrPenalty": 0
       },
-      "reason": "PER=159.3, 時価総額45億 → 対象外"
+      "reason": "PER=41.8, 時価総額38億 → 対象外"
     },
     "dividend": {
       "score": 5,
@@ -84,18 +84,18 @@
         "stabilityBonus": 0,
         "pbrPenalty": 0
       },
-      "reason": "益回り0.63%, NCR=-0.55, PBR=0.41 → 対象外"
+      "reason": "益回り2.39%, NCR=null, PBR=0.35 → 対象外"
     },
     "composite": {
-      "score": 8,
+      "score": 17,
       "components": {
-        "kiyohara": 0,
-        "graham": 25,
+        "kiyohara": 5,
+        "graham": 67,
         "buffett": 0,
         "lynch": 10,
         "dividend": 5
       },
-      "reason": "総合(均等加重): 清原流:0, グレアム流:25, バフェット流:0, リンチ流:10, 配当・インカム流:5"
+      "reason": "総合(均等加重): 清原流:5, グレアム流:67, バフェット流:0, リンチ流:10, 配当・インカム流:5"
     }
   }
 }

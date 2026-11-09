@@ -7,63 +7,63 @@
     "sector17Code": "9",
     "marketSegment": "スタンダード",
     "scaleCategory": "-",
-    "updatedAt": "2026-05-13T13:41:23.274Z",
+    "updatedAt": "2026-11-09T19:09:35.143Z",
     "snapshots": [
       {
         "id": "static-6662",
-        "snapshotAt": "2026-05-13T13:41:23.274Z",
-        "marketCap": 3476026000,
-        "netCash": -158000000,
-        "netCashRatio": -0.04545420546336535,
-        "cashNeutralPer": 113.5633125,
-        "per": 108.6258125,
-        "pbr": 2.2469463477698772
+        "snapshotAt": "2026-11-09T19:09:35.143Z",
+        "marketCap": 3283735200,
+        "netCash": null,
+        "netCashRatio": null,
+        "cashNeutralPer": null,
+        "per": 67.01500408163265,
+        "pbr": 2.099574936061381
       }
     ]
   },
   "history": [
     {
-      "id": "static-6662-2025-2Q",
+      "id": "static-6662-2026-FY",
       "code": "6662",
-      "fiscalYear": 2025,
-      "typeOfCurrentPeriod": "2Q",
-      "disclosedDate": "2026-02-06T00:00:00.000Z",
-      "periodEndDate": "2025-12-31T00:00:00.000Z",
-      "netSales": 679000000,
-      "operatingProfit": 32000000,
+      "fiscalYear": 2026,
+      "typeOfCurrentPeriod": "FY",
+      "disclosedDate": "2026-08-07T00:00:00.000Z",
+      "periodEndDate": "2026-06-30T00:00:00.000Z",
+      "netSales": 1304000000,
+      "operatingProfit": 49000000,
       "ordinaryProfit": null,
-      "profit": 32000000,
-      "totalAssets": 1705000000,
-      "equity": 1547000000,
-      "cashAndEquivalents": 1260033000,
+      "profit": 49000000,
+      "totalAssets": 1799000000,
+      "equity": 1564000000,
+      "cashAndEquivalents": 1361000000,
       "sharesOutstanding": 14791600
     },
     {
-      "id": "static-6662-2025-1Q",
+      "id": "static-6662-2026-3Q",
       "code": "6662",
-      "fiscalYear": 2025,
-      "typeOfCurrentPeriod": "1Q",
-      "disclosedDate": "2025-11-07T00:00:00.000Z",
-      "periodEndDate": "2025-09-30T00:00:00.000Z",
-      "netSales": 386000000,
-      "operatingProfit": 31000000,
+      "fiscalYear": 2026,
+      "typeOfCurrentPeriod": "3Q",
+      "disclosedDate": "2026-05-08T00:00:00.000Z",
+      "periodEndDate": "2026-03-31T00:00:00.000Z",
+      "netSales": 924000000,
+      "operatingProfit": 9000000,
       "ordinaryProfit": null,
-      "profit": 31000000,
-      "totalAssets": 1750000000,
-      "equity": 1546000000,
+      "profit": 10000000,
+      "totalAssets": 1710000000,
+      "equity": 1524000000,
       "cashAndEquivalents": null,
       "sharesOutstanding": 14791600
     }
   ],
   "strategies": {
     "kiyohara": {
-      "score": 0,
+      "score": 5,
       "components": {
-        "ncrScore": 10,
-        "cnperScore": -15,
+        "ncrScore": 0,
+        "cnperScore": 0,
         "sizeBonus": 5
       },
-      "reason": "NCR=-0.05, CNPER=113.6, 35億円 → 対象外"
+      "reason": "NCR=null, CNPER=null, 33億円 → 対象外"
     },
     "graham": {
       "score": 0,
@@ -73,7 +73,7 @@
         "perScore": 0,
         "ncrBonus": 0
       },
-      "reason": "PBR×PER=244.1, PBR=2.25, PER=108.6 → 対象外"
+      "reason": "PBR×PER=140.7, PBR=2.10, PER=67.0 → 対象外"
     },
     "buffett": {
       "score": 0,
@@ -82,7 +82,7 @@
         "qualityBonus": 0,
         "valuationPenalty": 0
       },
-      "reason": "ROE=2.1%, PBR=2.25 → 対象外"
+      "reason": "ROE=3.1%, PBR=2.10 → 対象外"
     },
     "lynch": {
       "score": 10,
@@ -91,7 +91,7 @@
         "sizeBonus": 10,
         "pbrPenalty": 0
       },
-      "reason": "PER=108.6, 時価総額35億 → 対象外"
+      "reason": "PER=67.0, 時価総額33億 → 対象外"
     },
     "dividend": {
       "score": 0,
@@ -100,18 +100,18 @@
         "stabilityBonus": 0,
         "pbrPenalty": -10
       },
-      "reason": "益回り0.92%, NCR=-0.05, PBR=2.25 → 対象外"
+      "reason": "益回り1.49%, NCR=null, PBR=2.10 → 対象外"
     },
     "composite": {
-      "score": 2,
+      "score": 3,
       "components": {
-        "kiyohara": 0,
+        "kiyohara": 5,
         "graham": 0,
         "buffett": 0,
         "lynch": 10,
         "dividend": 0
       },
-      "reason": "総合(均等加重): 清原流:0, グレアム流:0, バフェット流:0, リンチ流:10, 配当・インカム流:0"
+      "reason": "総合(均等加重): 清原流:5, グレアム流:0, バフェット流:0, リンチ流:10, 配当・インカム流:0"
     }
   }
 }

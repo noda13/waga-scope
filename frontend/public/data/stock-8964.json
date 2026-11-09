@@ -1,41 +1,41 @@
 {
   "profile": {
     "code": "8964",
-    "name": "フロンティア不動産投資法人",
+    "name": "三井不動産商業ファンド投資法人",
     "sector33Name": "その他",
     "sector33Code": "9999",
     "sector17Code": "99",
     "marketSegment": "その他",
     "scaleCategory": "-",
-    "updatedAt": "2026-05-13T13:41:23.470Z",
+    "updatedAt": "2026-11-09T19:09:35.359Z",
     "snapshots": [
       {
         "id": "static-8964",
-        "snapshotAt": "2026-05-13T13:41:23.470Z",
-        "marketCap": 246155000000,
-        "netCash": -168390000000,
-        "netCashRatio": -0.6840811683695233,
-        "cashNeutralPer": 70.17860165904858,
-        "per": 41.67174538682919,
-        "pbr": 1.402304940297147
+        "snapshotAt": "2026-11-09T19:09:35.359Z",
+        "marketCap": 215588500000,
+        "netCash": null,
+        "netCashRatio": null,
+        "cashNeutralPer": null,
+        "per": 35.99741192185674,
+        "pbr": 1.227899757938203
       }
     ]
   },
   "history": [
     {
-      "id": "static-8964-2025-FY",
+      "id": "static-8964-2026-FY",
       "code": "8964",
-      "fiscalYear": 2025,
+      "fiscalYear": 2026,
       "typeOfCurrentPeriod": "FY",
-      "disclosedDate": "2026-02-16T00:00:00.000Z",
-      "periodEndDate": "2025-12-31T00:00:00.000Z",
-      "netSales": 12094000000,
-      "operatingProfit": 6390000000,
+      "disclosedDate": "2026-08-17T00:00:00.000Z",
+      "periodEndDate": "2026-06-30T00:00:00.000Z",
+      "netSales": 12353000000,
+      "operatingProfit": 6673000000,
       "ordinaryProfit": null,
-      "profit": 5907000000,
-      "totalAssets": 343926000000,
-      "equity": 175536000000,
-      "cashAndEquivalents": 18322000000,
+      "profit": 5989000000,
+      "totalAssets": 360391000000,
+      "equity": 175575000000,
+      "cashAndEquivalents": 12381000000,
       "sharesOutstanding": 2705000
     }
   ],
@@ -43,21 +43,21 @@
     "kiyohara": {
       "score": 0,
       "components": {
-        "ncrScore": 7,
-        "cnperScore": -15,
+        "ncrScore": 0,
+        "cnperScore": 0,
         "sizeBonus": -10
       },
-      "reason": "NCR=-0.68, CNPER=70.2, 大型株ペナルティ → 対象外"
+      "reason": "NCR=null, CNPER=null, 大型株ペナルティ → 対象外"
     },
     "graham": {
-      "score": 12,
+      "score": 25,
       "components": {
-        "grahamProductScore": 0,
+        "grahamProductScore": 13,
         "pbrScore": 12,
         "perScore": 0,
         "ncrBonus": 0
       },
-      "reason": "PBR×PER=58.4, PBR=1.40, PER=41.7 → 対象外"
+      "reason": "PBR×PER=44.2, PBR=1.23, PER=36.0 → 対象外"
     },
     "buffett": {
       "score": 0,
@@ -66,7 +66,7 @@
         "qualityBonus": 0,
         "valuationPenalty": 0
       },
-      "reason": "ROE=3.4%, PBR=1.40 → 対象外"
+      "reason": "ROE=3.4%, PBR=1.23 → 対象外"
     },
     "lynch": {
       "score": 0,
@@ -75,7 +75,7 @@
         "sizeBonus": 0,
         "pbrPenalty": 0
       },
-      "reason": "PER=41.7, 時価総額2462億 → 対象外"
+      "reason": "PER=36.0, 時価総額2156億 → 対象外"
     },
     "dividend": {
       "score": 5,
@@ -84,18 +84,18 @@
         "stabilityBonus": 0,
         "pbrPenalty": 0
       },
-      "reason": "益回り2.40%, NCR=-0.68, PBR=1.40 → 対象外"
+      "reason": "益回り2.78%, NCR=null, PBR=1.23 → 対象外"
     },
     "composite": {
-      "score": 3,
+      "score": 6,
       "components": {
         "kiyohara": 0,
-        "graham": 12,
+        "graham": 25,
         "buffett": 0,
         "lynch": 0,
         "dividend": 5
       },
-      "reason": "総合(均等加重): 清原流:0, グレアム流:12, バフェット流:0, リンチ流:0, 配当・インカム流:5"
+      "reason": "総合(均等加重): 清原流:0, グレアム流:25, バフェット流:0, リンチ流:0, 配当・インカム流:5"
     }
   }
 }

@@ -7,17 +7,17 @@
     "sector17Code": "14",
     "marketSegment": "プライム",
     "scaleCategory": "TOPIX Small 2",
-    "updatedAt": "2026-11-09T19:09:34.762Z",
+    "updatedAt": "2026-11-10T16:45:33.319Z",
     "snapshots": [
       {
         "id": "static-3093",
-        "snapshotAt": "2026-11-09T19:09:34.762Z",
-        "marketCap": 49836010334,
+        "snapshotAt": "2026-11-10T16:45:33.319Z",
+        "marketCap": 50398599350,
         "netCash": null,
         "netCashRatio": null,
         "cashNeutralPer": null,
-        "per": 40.71569471732026,
-        "pbr": 3.64724899985363
+        "per": 41.175326266339866,
+        "pbr": 3.6884220835772834
       }
     ]
   },
@@ -45,9 +45,9 @@
       "components": {
         "ncrScore": 0,
         "cnperScore": 0,
-        "sizeBonus": 0
+        "sizeBonus": -10
       },
-      "reason": "NCR=null, CNPER=null, 498億円 → 対象外"
+      "reason": "NCR=null, CNPER=null, 大型株ペナルティ → 対象外"
     },
     "graham": {
       "score": 0,
@@ -57,7 +57,7 @@
         "perScore": 0,
         "ncrBonus": 0
       },
-      "reason": "PBR×PER=148.5, PBR=3.65, PER=40.7 → 対象外"
+      "reason": "PBR×PER=151.9, PBR=3.69, PER=41.2 → 対象外"
     },
     "buffett": {
       "score": 10,
@@ -66,7 +66,7 @@
         "qualityBonus": 0,
         "valuationPenalty": 0
       },
-      "reason": "ROE=9.0%, PBR=3.65 → 対象外"
+      "reason": "ROE=9.0%, PBR=3.69 → 対象外"
     },
     "lynch": {
       "score": 0,
@@ -75,7 +75,7 @@
         "sizeBonus": 0,
         "pbrPenalty": -8
       },
-      "reason": "PER=40.7, 時価総額498億 → 対象外"
+      "reason": "PER=41.2, 時価総額504億 → 対象外"
     },
     "dividend": {
       "score": 0,
@@ -84,7 +84,7 @@
         "stabilityBonus": 0,
         "pbrPenalty": -10
       },
-      "reason": "益回り2.46%, NCR=null, PBR=3.65 → 対象外"
+      "reason": "益回り2.43%, NCR=null, PBR=3.69 → 対象外"
     },
     "composite": {
       "score": 2,

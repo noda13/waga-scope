@@ -7,17 +7,17 @@
     "sector17Code": "13",
     "marketSegment": "プライム",
     "scaleCategory": "TOPIX Mid400",
-    "updatedAt": "2026-11-09T19:09:35.305Z",
+    "updatedAt": "2026-11-10T16:45:33.999Z",
     "snapshots": [
       {
         "id": "static-8129",
-        "snapshotAt": "2026-11-09T19:09:35.305Z",
-        "marketCap": 250007071272,
+        "snapshotAt": "2026-11-10T16:45:33.999Z",
+        "marketCap": 252336329700,
         "netCash": null,
         "netCashRatio": null,
         "cashNeutralPer": null,
-        "per": 14.428756926877128,
-        "pbr": 0.9206329034909412
+        "per": 14.563186339239337,
+        "pbr": 0.929210228678745
       }
     ]
   },
@@ -66,14 +66,14 @@
       "reason": "NCR=null, CNPER=null, 大型株ペナルティ → 対象外"
     },
     "graham": {
-      "score": 77,
+      "score": 76,
       "components": {
-        "grahamProductScore": 45,
+        "grahamProductScore": 44,
         "pbrScore": 20,
         "perScore": 12,
         "ncrBonus": 0
       },
-      "reason": "PBR×PER=13.3, PBR=0.92, PER=14.4 → 強い買い候補"
+      "reason": "PBR×PER=13.5, PBR=0.93, PER=14.6 → 強い買い候補"
     },
     "buffett": {
       "score": 10,
@@ -82,7 +82,7 @@
         "qualityBonus": 0,
         "valuationPenalty": 0
       },
-      "reason": "ROE=6.4%, PBR=0.92 → 対象外"
+      "reason": "ROE=6.4%, PBR=0.93 → 対象外"
     },
     "lynch": {
       "score": 38,
@@ -91,7 +91,7 @@
         "sizeBonus": 0,
         "pbrPenalty": 0
       },
-      "reason": "PER=14.4, 時価総額2500億 → 様子見"
+      "reason": "PER=14.6, 時価総額2523億 → 様子見"
     },
     "dividend": {
       "score": 35,
@@ -100,18 +100,18 @@
         "stabilityBonus": 0,
         "pbrPenalty": 0
       },
-      "reason": "益回り6.93%, NCR=null, PBR=0.92 → 様子見"
+      "reason": "益回り6.87%, NCR=null, PBR=0.93 → 様子見"
     },
     "composite": {
       "score": 32,
       "components": {
         "kiyohara": 0,
-        "graham": 77,
+        "graham": 76,
         "buffett": 10,
         "lynch": 38,
         "dividend": 35
       },
-      "reason": "総合(均等加重): 清原流:0, グレアム流:77, バフェット流:10, リンチ流:38, 配当・インカム流:35"
+      "reason": "総合(均等加重): 清原流:0, グレアム流:76, バフェット流:10, リンチ流:38, 配当・インカム流:35"
     }
   }
 }

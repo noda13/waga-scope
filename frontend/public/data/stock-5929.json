@@ -7,17 +7,17 @@
     "sector17Code": "3",
     "marketSegment": "プライム",
     "scaleCategory": "TOPIX Mid400",
-    "updatedAt": "2026-11-09T19:09:35.046Z",
+    "updatedAt": "2026-11-10T16:45:33.690Z",
     "snapshots": [
       {
         "id": "static-5929",
-        "snapshotAt": "2026-11-09T19:09:35.046Z",
-        "marketCap": 745509935808,
+        "snapshotAt": "2026-11-10T16:45:33.690Z",
+        "marketCap": 750757049658,
         "netCash": null,
         "netCashRatio": null,
         "cashNeutralPer": null,
-        "per": 12.471726709850108,
-        "pbr": 2.1240567541768285
+        "per": 12.559506317886777,
+        "pbr": 2.139006477953411
       }
     ]
   },
@@ -89,7 +89,7 @@
         "perScore": 12,
         "ncrBonus": 0
       },
-      "reason": "PBR×PER=26.5, PBR=2.12, PER=12.5 → 様子見"
+      "reason": "PBR×PER=26.9, PBR=2.14, PER=12.6 → 様子見"
     },
     "buffett": {
       "score": 40,
@@ -98,7 +98,7 @@
         "qualityBonus": 0,
         "valuationPenalty": 0
       },
-      "reason": "ROE=17.0%, PBR=2.12 → 様子見"
+      "reason": "ROE=17.0%, PBR=2.14 → 様子見"
     },
     "lynch": {
       "score": 38,
@@ -107,27 +107,27 @@
         "sizeBonus": 0,
         "pbrPenalty": 0
       },
-      "reason": "PER=12.5, 時価総額7455億 → 様子見"
+      "reason": "PER=12.6, 時価総額7508億 → 様子見"
     },
     "dividend": {
-      "score": 40,
+      "score": 25,
       "components": {
-        "earningsYieldScore": 50,
+        "earningsYieldScore": 35,
         "stabilityBonus": 0,
         "pbrPenalty": -10
       },
-      "reason": "益回り8.02%, NCR=null, PBR=2.12 → 様子見"
+      "reason": "益回り7.96%, NCR=null, PBR=2.14 → 様子見"
     },
     "composite": {
-      "score": 31,
+      "score": 28,
       "components": {
         "kiyohara": 0,
         "graham": 35,
         "buffett": 40,
         "lynch": 38,
-        "dividend": 40
+        "dividend": 25
       },
-      "reason": "総合(均等加重): 清原流:0, グレアム流:35, バフェット流:40, リンチ流:38, 配当・インカム流:40"
+      "reason": "総合(均等加重): 清原流:0, グレアム流:35, バフェット流:40, リンチ流:38, 配当・インカム流:25"
     }
   }
 }

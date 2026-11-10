@@ -7,17 +7,17 @@
     "sector17Code": "9",
     "marketSegment": "プライム",
     "scaleCategory": "TOPIX Small 2",
-    "updatedAt": "2026-11-09T19:09:35.160Z",
+    "updatedAt": "2026-11-10T16:45:33.815Z",
     "snapshots": [
       {
         "id": "static-6850",
-        "snapshotAt": "2026-11-09T19:09:35.160Z",
-        "marketCap": 28046641038,
+        "snapshotAt": "2026-11-10T16:45:33.815Z",
+        "marketCap": 27929570980,
         "netCash": null,
         "netCashRatio": null,
         "cashNeutralPer": null,
-        "per": 13.734887873653282,
-        "pbr": 1.0549799149144254
+        "per": 13.67755679725759,
+        "pbr": 1.0505763016738763
       }
     ]
   },
@@ -63,17 +63,17 @@
         "cnperScore": 0,
         "sizeBonus": 0
       },
-      "reason": "NCR=null, CNPER=null, 280億円 → 対象外"
+      "reason": "NCR=null, CNPER=null, 279億円 → 対象外"
     },
     "graham": {
-      "score": 66,
+      "score": 67,
       "components": {
-        "grahamProductScore": 42,
+        "grahamProductScore": 43,
         "pbrScore": 12,
         "perScore": 12,
         "ncrBonus": 0
       },
-      "reason": "PBR×PER=14.5, PBR=1.05, PER=13.7 → 買い候補"
+      "reason": "PBR×PER=14.4, PBR=1.05, PER=13.7 → 買い候補"
     },
     "buffett": {
       "score": 10,
@@ -91,7 +91,7 @@
         "sizeBonus": 4,
         "pbrPenalty": 0
       },
-      "reason": "PER=13.7, 時価総額280億 → 様子見"
+      "reason": "PER=13.7, 時価総額279億 → 様子見"
     },
     "dividend": {
       "score": 35,
@@ -100,18 +100,18 @@
         "stabilityBonus": 0,
         "pbrPenalty": 0
       },
-      "reason": "益回り7.28%, NCR=null, PBR=1.05 → 様子見"
+      "reason": "益回り7.31%, NCR=null, PBR=1.05 → 様子見"
     },
     "composite": {
       "score": 31,
       "components": {
         "kiyohara": 0,
-        "graham": 66,
+        "graham": 67,
         "buffett": 10,
         "lynch": 42,
         "dividend": 35
       },
-      "reason": "総合(均等加重): 清原流:0, グレアム流:66, バフェット流:10, リンチ流:42, 配当・インカム流:35"
+      "reason": "総合(均等加重): 清原流:0, グレアム流:67, バフェット流:10, リンチ流:42, 配当・インカム流:35"
     }
   }
 }

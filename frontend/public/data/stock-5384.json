@@ -7,17 +7,17 @@
     "sector17Code": "3",
     "marketSegment": "プライム",
     "scaleCategory": "TOPIX Small 1",
-    "updatedAt": "2026-11-09T19:09:35.011Z",
+    "updatedAt": "2026-11-10T16:45:33.641Z",
     "snapshots": [
       {
         "id": "static-5384",
-        "snapshotAt": "2026-11-09T19:09:35.011Z",
-        "marketCap": 303780433320,
+        "snapshotAt": "2026-11-10T16:45:33.641Z",
+        "marketCap": 287460117000,
         "netCash": null,
         "netCashRatio": null,
         "cashNeutralPer": null,
-        "per": 33.53355042719947,
-        "pbr": 3.585910798795963
+        "per": 31.73199216249034,
+        "pbr": 3.3932611343917842
       }
     ]
   },
@@ -73,7 +73,7 @@
         "perScore": 0,
         "ncrBonus": 0
       },
-      "reason": "PBR×PER=120.2, PBR=3.59, PER=33.5 → 対象外"
+      "reason": "PBR×PER=107.7, PBR=3.39, PER=31.7 → 対象外"
     },
     "buffett": {
       "score": 25,
@@ -82,7 +82,7 @@
         "qualityBonus": 0,
         "valuationPenalty": 0
       },
-      "reason": "ROE=10.7%, PBR=3.59 → 様子見"
+      "reason": "ROE=10.7%, PBR=3.39 → 様子見"
     },
     "lynch": {
       "score": 0,
@@ -91,27 +91,27 @@
         "sizeBonus": 0,
         "pbrPenalty": -8
       },
-      "reason": "PER=33.5, 時価総額3038億 → 対象外"
+      "reason": "PER=31.7, 時価総額2875億 → 対象外"
     },
     "dividend": {
-      "score": 0,
+      "score": 8,
       "components": {
-        "earningsYieldScore": 5,
+        "earningsYieldScore": 18,
         "stabilityBonus": 0,
         "pbrPenalty": -10
       },
-      "reason": "益回り2.98%, NCR=null, PBR=3.59 → 対象外"
+      "reason": "益回り3.15%, NCR=null, PBR=3.39 → 対象外"
     },
     "composite": {
-      "score": 5,
+      "score": 7,
       "components": {
         "kiyohara": 0,
         "graham": 0,
         "buffett": 25,
         "lynch": 0,
-        "dividend": 0
+        "dividend": 8
       },
-      "reason": "総合(均等加重): 清原流:0, グレアム流:0, バフェット流:25, リンチ流:0, 配当・インカム流:0"
+      "reason": "総合(均等加重): 清原流:0, グレアム流:0, バフェット流:25, リンチ流:0, 配当・インカム流:8"
     }
   }
 }

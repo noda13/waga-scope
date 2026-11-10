@@ -7,17 +7,17 @@
     "sector17Code": "10",
     "marketSegment": "グロース",
     "scaleCategory": "-",
-    "updatedAt": "2026-11-09T19:09:34.895Z",
+    "updatedAt": "2026-11-10T16:45:33.484Z",
     "snapshots": [
       {
         "id": "static-4192",
-        "snapshotAt": "2026-11-09T19:09:34.895Z",
-        "marketCap": 10272718860,
+        "snapshotAt": "2026-11-10T16:45:33.484Z",
+        "marketCap": 9810624240,
         "netCash": null,
         "netCashRatio": null,
         "cashNeutralPer": null,
-        "per": 250.55411853658538,
-        "pbr": 3.787875685840708
+        "per": 239.28351804878048,
+        "pbr": 3.617486814159292
       }
     ]
   },
@@ -57,13 +57,13 @@
   ],
   "strategies": {
     "kiyohara": {
-      "score": 0,
+      "score": 3,
       "components": {
         "ncrScore": 0,
         "cnperScore": 0,
-        "sizeBonus": 0
+        "sizeBonus": 3
       },
-      "reason": "NCR=null, CNPER=null, 103億円 → 対象外"
+      "reason": "NCR=null, CNPER=null, 98億円 → 対象外"
     },
     "graham": {
       "score": 0,
@@ -73,7 +73,7 @@
         "perScore": 0,
         "ncrBonus": 0
       },
-      "reason": "PBR×PER=949.1, PBR=3.79, PER=250.6 → 対象外"
+      "reason": "PBR×PER=865.6, PBR=3.62, PER=239.3 → 対象外"
     },
     "buffett": {
       "score": 0,
@@ -82,16 +82,16 @@
         "qualityBonus": 0,
         "valuationPenalty": 0
       },
-      "reason": "ROE=1.5%, PBR=3.79 → 対象外"
+      "reason": "ROE=1.5%, PBR=3.62 → 対象外"
     },
     "lynch": {
-      "score": 0,
+      "score": 2,
       "components": {
         "perScore": 0,
-        "sizeBonus": 4,
+        "sizeBonus": 10,
         "pbrPenalty": -8
       },
-      "reason": "PER=250.6, 時価総額103億 → 対象外"
+      "reason": "PER=239.3, 時価総額98億 → 対象外"
     },
     "dividend": {
       "score": 0,
@@ -100,18 +100,18 @@
         "stabilityBonus": 0,
         "pbrPenalty": -10
       },
-      "reason": "益回り0.40%, NCR=null, PBR=3.79 → 対象外"
+      "reason": "益回り0.42%, NCR=null, PBR=3.62 → 対象外"
     },
     "composite": {
-      "score": 0,
+      "score": 1,
       "components": {
-        "kiyohara": 0,
+        "kiyohara": 3,
         "graham": 0,
         "buffett": 0,
-        "lynch": 0,
+        "lynch": 2,
         "dividend": 0
       },
-      "reason": "総合(均等加重): 清原流:0, グレアム流:0, バフェット流:0, リンチ流:0, 配当・インカム流:0"
+      "reason": "総合(均等加重): 清原流:3, グレアム流:0, バフェット流:0, リンチ流:2, 配当・インカム流:0"
     }
   }
 }

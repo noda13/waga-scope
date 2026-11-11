@@ -7,17 +7,17 @@
     "sector17Code": "13",
     "marketSegment": "スタンダード",
     "scaleCategory": "-",
-    "updatedAt": "2026-11-10T16:45:33.357Z",
+    "updatedAt": "2026-11-11T16:31:39.350Z",
     "snapshots": [
       {
         "id": "static-3320",
-        "snapshotAt": "2026-11-10T16:45:33.357Z",
-        "marketCap": 9700063695,
+        "snapshotAt": "2026-11-11T16:31:39.350Z",
+        "marketCap": 9581135711,
         "netCash": null,
         "netCashRatio": null,
         "cashNeutralPer": null,
-        "per": 38.956079096385544,
-        "pbr": 0.5048435357031331
+        "per": 38.47845667068273,
+        "pbr": 0.4986538831581139
       }
     ]
   },
@@ -47,17 +47,17 @@
         "cnperScore": 0,
         "sizeBonus": 3
       },
-      "reason": "NCR=null, CNPER=null, 97億円 → 対象外"
+      "reason": "NCR=null, CNPER=null, 96億円 → 対象外"
     },
     "graham": {
-      "score": 51,
+      "score": 57,
       "components": {
-        "grahamProductScore": 31,
-        "pbrScore": 20,
+        "grahamProductScore": 32,
+        "pbrScore": 25,
         "perScore": 0,
         "ncrBonus": 0
       },
-      "reason": "PBR×PER=19.7, PBR=0.50, PER=39.0 → 買い候補"
+      "reason": "PBR×PER=19.2, PBR=0.50, PER=38.5 → 買い候補"
     },
     "buffett": {
       "score": 0,
@@ -75,7 +75,7 @@
         "sizeBonus": 10,
         "pbrPenalty": 0
       },
-      "reason": "PER=39.0, 時価総額97億 → 対象外"
+      "reason": "PER=38.5, 時価総額96億 → 対象外"
     },
     "dividend": {
       "score": 5,
@@ -84,18 +84,18 @@
         "stabilityBonus": 0,
         "pbrPenalty": 0
       },
-      "reason": "益回り2.57%, NCR=null, PBR=0.50 → 対象外"
+      "reason": "益回り2.60%, NCR=null, PBR=0.50 → 対象外"
     },
     "composite": {
-      "score": 14,
+      "score": 15,
       "components": {
         "kiyohara": 3,
-        "graham": 51,
+        "graham": 57,
         "buffett": 0,
         "lynch": 10,
         "dividend": 5
       },
-      "reason": "総合(均等加重): 清原流:3, グレアム流:51, バフェット流:0, リンチ流:10, 配当・インカム流:5"
+      "reason": "総合(均等加重): 清原流:3, グレアム流:57, バフェット流:0, リンチ流:10, 配当・インカム流:5"
     }
   }
 }

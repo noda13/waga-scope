@@ -7,17 +7,17 @@
     "sector17Code": "10",
     "marketSegment": "グロース",
     "scaleCategory": "-",
-    "updatedAt": "2026-11-10T16:45:33.520Z",
+    "updatedAt": "2026-11-11T16:31:39.505Z",
     "snapshots": [
       {
         "id": "static-4418",
-        "snapshotAt": "2026-11-10T16:45:33.520Z",
-        "marketCap": 15318734700,
+        "snapshotAt": "2026-11-11T16:31:39.505Z",
+        "marketCap": 16250492790,
         "netCash": null,
         "netCashRatio": null,
         "cashNeutralPer": null,
-        "per": 18.935395179233623,
-        "pbr": 2.2670911203196686
+        "per": 20.087135710754016,
+        "pbr": 2.404986353411277
       }
     ]
   },
@@ -63,17 +63,17 @@
         "cnperScore": 0,
         "sizeBonus": 0
       },
-      "reason": "NCR=null, CNPER=null, 153億円 → 対象外"
+      "reason": "NCR=null, CNPER=null, 163億円 → 対象外"
     },
     "graham": {
-      "score": 19,
+      "score": 0,
       "components": {
-        "grahamProductScore": 14,
+        "grahamProductScore": 0,
         "pbrScore": 0,
-        "perScore": 5,
+        "perScore": 0,
         "ncrBonus": 0
       },
-      "reason": "PBR×PER=42.9, PBR=2.27, PER=18.9 → 対象外"
+      "reason": "PBR×PER=48.3, PBR=2.40, PER=20.1 → 対象外"
     },
     "buffett": {
       "score": 25,
@@ -82,36 +82,36 @@
         "qualityBonus": 0,
         "valuationPenalty": 0
       },
-      "reason": "ROE=12.0%, PBR=2.27 → 様子見"
+      "reason": "ROE=12.0%, PBR=2.40 → 様子見"
     },
     "lynch": {
-      "score": 26,
+      "score": 12,
       "components": {
-        "perScore": 22,
+        "perScore": 8,
         "sizeBonus": 4,
         "pbrPenalty": 0
       },
-      "reason": "PER=18.9, 時価総額153億 → 様子見"
+      "reason": "PER=20.1, 時価総額163億 → 対象外"
     },
     "dividend": {
-      "score": 25,
+      "score": 8,
       "components": {
-        "earningsYieldScore": 35,
+        "earningsYieldScore": 18,
         "stabilityBonus": 0,
         "pbrPenalty": -10
       },
-      "reason": "益回り5.28%, NCR=null, PBR=2.27 → 様子見"
+      "reason": "益回り4.98%, NCR=null, PBR=2.40 → 対象外"
     },
     "composite": {
-      "score": 19,
+      "score": 9,
       "components": {
         "kiyohara": 0,
-        "graham": 19,
+        "graham": 0,
         "buffett": 25,
-        "lynch": 26,
-        "dividend": 25
+        "lynch": 12,
+        "dividend": 8
       },
-      "reason": "総合(均等加重): 清原流:0, グレアム流:19, バフェット流:25, リンチ流:26, 配当・インカム流:25"
+      "reason": "総合(均等加重): 清原流:0, グレアム流:0, バフェット流:25, リンチ流:12, 配当・インカム流:8"
     }
   }
 }

@@ -7,19 +7,8 @@
     "sector17Code": "3",
     "marketSegment": "スタンダード",
     "scaleCategory": "-",
-    "updatedAt": "2026-11-11T16:31:39.132Z",
-    "snapshots": [
-      {
-        "id": "static-1807",
-        "snapshotAt": "2026-11-11T16:31:39.132Z",
-        "marketCap": 11832298515,
-        "netCash": null,
-        "netCashRatio": null,
-        "cashNeutralPer": null,
-        "per": 13.40011156851642,
-        "pbr": 0.5162433907068062
-      }
-    ]
+    "updatedAt": "2026-11-12T17:09:20.243Z",
+    "snapshots": []
   },
   "history": [
     {
@@ -55,63 +44,5 @@
       "sharesOutstanding": 6243957
     }
   ],
-  "strategies": {
-    "kiyohara": {
-      "score": 0,
-      "components": {
-        "ncrScore": 0,
-        "cnperScore": 0,
-        "sizeBonus": 0
-      },
-      "reason": "NCR=null, CNPER=null, 118億円 → 対象外"
-    },
-    "graham": {
-      "score": 82,
-      "components": {
-        "grahamProductScore": 50,
-        "pbrScore": 20,
-        "perScore": 12,
-        "ncrBonus": 0
-      },
-      "reason": "PBR×PER=6.9, PBR=0.52, PER=13.4 → 強い買い候補"
-    },
-    "buffett": {
-      "score": 0,
-      "components": {
-        "roeScore": 0,
-        "qualityBonus": 0,
-        "valuationPenalty": 0
-      },
-      "reason": "ROE=3.9%, PBR=0.52 → 対象外"
-    },
-    "lynch": {
-      "score": 42,
-      "components": {
-        "perScore": 38,
-        "sizeBonus": 4,
-        "pbrPenalty": 0
-      },
-      "reason": "PER=13.4, 時価総額118億 → 様子見"
-    },
-    "dividend": {
-      "score": 35,
-      "components": {
-        "earningsYieldScore": 35,
-        "stabilityBonus": 0,
-        "pbrPenalty": 0
-      },
-      "reason": "益回り7.46%, NCR=null, PBR=0.52 → 様子見"
-    },
-    "composite": {
-      "score": 32,
-      "components": {
-        "kiyohara": 0,
-        "graham": 82,
-        "buffett": 0,
-        "lynch": 42,
-        "dividend": 35
-      },
-      "reason": "総合(均等加重): 清原流:0, グレアム流:82, バフェット流:0, リンチ流:42, 配当・インカム流:35"
-    }
-  }
+  "strategies": {}
 }

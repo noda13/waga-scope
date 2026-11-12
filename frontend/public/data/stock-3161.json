@@ -7,17 +7,17 @@
     "sector17Code": "13",
     "marketSegment": "スタンダード",
     "scaleCategory": "-",
-    "updatedAt": "2026-11-11T16:31:39.330Z",
+    "updatedAt": "2026-11-12T17:09:20.450Z",
     "snapshots": [
       {
         "id": "static-3161",
-        "snapshotAt": "2026-11-11T16:31:39.330Z",
-        "marketCap": 3802762764,
+        "snapshotAt": "2026-11-12T17:09:20.450Z",
+        "marketCap": 3854151450,
         "netCash": null,
         "netCashRatio": null,
         "cashNeutralPer": null,
-        "per": 27.55625191304348,
-        "pbr": 0.5570997310284207
+        "per": 27.928633695652174,
+        "pbr": 0.564628105772048
       }
     ]
   },
@@ -47,17 +47,17 @@
         "cnperScore": 0,
         "sizeBonus": 5
       },
-      "reason": "NCR=null, CNPER=null, 38億円 → 対象外"
+      "reason": "NCR=null, CNPER=null, 39億円 → 対象外"
     },
     "graham": {
-      "score": 61,
+      "score": 60,
       "components": {
-        "grahamProductScore": 41,
+        "grahamProductScore": 40,
         "pbrScore": 20,
         "perScore": 0,
         "ncrBonus": 0
       },
-      "reason": "PBR×PER=15.4, PBR=0.56, PER=27.6 → 買い候補"
+      "reason": "PBR×PER=15.8, PBR=0.56, PER=27.9 → 買い候補"
     },
     "buffett": {
       "score": 0,
@@ -75,7 +75,7 @@
         "sizeBonus": 10,
         "pbrPenalty": 0
       },
-      "reason": "PER=27.6, 時価総額38億 → 対象外"
+      "reason": "PER=27.9, 時価総額39億 → 対象外"
     },
     "dividend": {
       "score": 18,
@@ -84,18 +84,18 @@
         "stabilityBonus": 0,
         "pbrPenalty": 0
       },
-      "reason": "益回り3.63%, NCR=null, PBR=0.56 → 対象外"
+      "reason": "益回り3.58%, NCR=null, PBR=0.56 → 対象外"
     },
     "composite": {
       "score": 20,
       "components": {
         "kiyohara": 5,
-        "graham": 61,
+        "graham": 60,
         "buffett": 0,
         "lynch": 18,
         "dividend": 18
       },
-      "reason": "総合(均等加重): 清原流:5, グレアム流:61, バフェット流:0, リンチ流:18, 配当・インカム流:18"
+      "reason": "総合(均等加重): 清原流:5, グレアム流:60, バフェット流:0, リンチ流:18, 配当・インカム流:18"
     }
   }
 }

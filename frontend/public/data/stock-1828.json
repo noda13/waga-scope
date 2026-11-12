@@ -7,17 +7,17 @@
     "sector17Code": "3",
     "marketSegment": "スタンダード",
     "scaleCategory": "-",
-    "updatedAt": "2026-11-11T16:31:39.135Z",
+    "updatedAt": "2026-11-12T17:09:20.247Z",
     "snapshots": [
       {
         "id": "static-1828",
-        "snapshotAt": "2026-11-11T16:31:39.135Z",
-        "marketCap": 23988958250,
+        "snapshotAt": "2026-11-12T17:09:20.247Z",
+        "marketCap": 24209425700,
         "netCash": null,
         "netCashRatio": null,
         "cashNeutralPer": null,
-        "per": 6.949292656431054,
-        "pbr": 0.8569933641754787
+        "per": 7.013159241019698,
+        "pbr": 0.8648694519862818
       }
     ]
   },
@@ -63,17 +63,17 @@
         "cnperScore": 0,
         "sizeBonus": 0
       },
-      "reason": "NCR=null, CNPER=null, 240億円 → 対象外"
+      "reason": "NCR=null, CNPER=null, 242億円 → 対象外"
     },
     "graham": {
-      "score": 95,
+      "score": 90,
       "components": {
         "grahamProductScore": 50,
         "pbrScore": 20,
-        "perScore": 25,
+        "perScore": 20,
         "ncrBonus": 0
       },
-      "reason": "PBR×PER=6.0, PBR=0.86, PER=6.9 → 強い買い候補"
+      "reason": "PBR×PER=6.1, PBR=0.86, PER=7.0 → 強い買い候補"
     },
     "buffett": {
       "score": 25,
@@ -91,7 +91,7 @@
         "sizeBonus": 4,
         "pbrPenalty": 0
       },
-      "reason": "PER=6.9, 時価総額240億 → 注目"
+      "reason": "PER=7.0, 時価総額242億 → 注目"
     },
     "dividend": {
       "score": 60,
@@ -100,18 +100,18 @@
         "stabilityBonus": 0,
         "pbrPenalty": 0
       },
-      "reason": "益回り14.39%, NCR=null, PBR=0.86 → 良好"
+      "reason": "益回り14.26%, NCR=null, PBR=0.86 → 良好"
     },
     "composite": {
-      "score": 47,
+      "score": 46,
       "components": {
         "kiyohara": 0,
-        "graham": 95,
+        "graham": 90,
         "buffett": 25,
         "lynch": 54,
         "dividend": 60
       },
-      "reason": "総合(均等加重): 清原流:0, グレアム流:95, バフェット流:25, リンチ流:54, 配当・インカム流:60"
+      "reason": "総合(均等加重): 清原流:0, グレアム流:90, バフェット流:25, リンチ流:54, 配当・インカム流:60"
     }
   }
 }

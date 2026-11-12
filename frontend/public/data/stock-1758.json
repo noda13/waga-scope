@@ -7,17 +7,17 @@
     "sector17Code": "3",
     "marketSegment": "スタンダード",
     "scaleCategory": "-",
-    "updatedAt": "2026-11-11T16:31:39.126Z",
+    "updatedAt": "2026-11-12T17:09:20.237Z",
     "snapshots": [
       {
         "id": "static-1758",
-        "snapshotAt": "2026-11-11T16:31:39.126Z",
-        "marketCap": 4790404800,
+        "snapshotAt": "2026-11-12T17:09:20.237Z",
+        "marketCap": 4850284860,
         "netCash": null,
         "netCashRatio": null,
         "cashNeutralPer": null,
-        "per": 20.298325423728812,
-        "pbr": 0.495439528389699
+        "per": 20.552054491525425,
+        "pbr": 0.5016325224945702
       }
     ]
   },
@@ -47,17 +47,17 @@
         "cnperScore": 0,
         "sizeBonus": 5
       },
-      "reason": "NCR=null, CNPER=null, 48億円 → 対象外"
+      "reason": "NCR=null, CNPER=null, 49億円 → 対象外"
     },
     "graham": {
-      "score": 75,
+      "score": 70,
       "components": {
         "grahamProductScore": 50,
-        "pbrScore": 25,
+        "pbrScore": 20,
         "perScore": 0,
         "ncrBonus": 0
       },
-      "reason": "PBR×PER=10.1, PBR=0.50, PER=20.3 → 強い買い候補"
+      "reason": "PBR×PER=10.3, PBR=0.50, PER=20.6 → 強い買い候補"
     },
     "buffett": {
       "score": 0,
@@ -75,7 +75,7 @@
         "sizeBonus": 10,
         "pbrPenalty": 0
       },
-      "reason": "PER=20.3, 時価総額48億 → 対象外"
+      "reason": "PER=20.6, 時価総額49億 → 対象外"
     },
     "dividend": {
       "score": 18,
@@ -84,18 +84,18 @@
         "stabilityBonus": 0,
         "pbrPenalty": 0
       },
-      "reason": "益回り4.93%, NCR=null, PBR=0.50 → 対象外"
+      "reason": "益回り4.87%, NCR=null, PBR=0.50 → 対象外"
     },
     "composite": {
-      "score": 23,
+      "score": 22,
       "components": {
         "kiyohara": 5,
-        "graham": 75,
+        "graham": 70,
         "buffett": 0,
         "lynch": 18,
         "dividend": 18
       },
-      "reason": "総合(均等加重): 清原流:5, グレアム流:75, バフェット流:0, リンチ流:18, 配当・インカム流:18"
+      "reason": "総合(均等加重): 清原流:5, グレアム流:70, バフェット流:0, リンチ流:18, 配当・インカム流:18"
     }
   }
 }

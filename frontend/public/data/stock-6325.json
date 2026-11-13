@@ -7,17 +7,17 @@
     "sector17Code": "8",
     "marketSegment": "スタンダード",
     "scaleCategory": "-",
-    "updatedAt": "2026-11-12T17:09:20.875Z",
+    "updatedAt": "2026-11-13T16:45:57.014Z",
     "snapshots": [
       {
         "id": "static-6325",
-        "snapshotAt": "2026-11-12T17:09:20.875Z",
-        "marketCap": 4653007284,
+        "snapshotAt": "2026-11-13T16:45:57.014Z",
+        "marketCap": 4720769526,
         "netCash": null,
         "netCashRatio": null,
         "cashNeutralPer": null,
-        "per": 22.697596507317073,
-        "pbr": 0.5555166289398281
+        "per": 23.028144029268294,
+        "pbr": 0.5636066769340974
       }
     ]
   },
@@ -66,14 +66,14 @@
       "reason": "NCR=null, CNPER=null, 47億円 → 対象外"
     },
     "graham": {
-      "score": 67,
+      "score": 66,
       "components": {
-        "grahamProductScore": 47,
+        "grahamProductScore": 46,
         "pbrScore": 20,
         "perScore": 0,
         "ncrBonus": 0
       },
-      "reason": "PBR×PER=12.6, PBR=0.56, PER=22.7 → 買い候補"
+      "reason": "PBR×PER=13.0, PBR=0.56, PER=23.0 → 買い候補"
     },
     "buffett": {
       "score": 0,
@@ -91,7 +91,7 @@
         "sizeBonus": 10,
         "pbrPenalty": 0
       },
-      "reason": "PER=22.7, 時価総額47億 → 対象外"
+      "reason": "PER=23.0, 時価総額47億 → 対象外"
     },
     "dividend": {
       "score": 18,
@@ -100,18 +100,18 @@
         "stabilityBonus": 0,
         "pbrPenalty": 0
       },
-      "reason": "益回り4.41%, NCR=null, PBR=0.56 → 対象外"
+      "reason": "益回り4.34%, NCR=null, PBR=0.56 → 対象外"
     },
     "composite": {
-      "score": 22,
+      "score": 21,
       "components": {
         "kiyohara": 5,
-        "graham": 67,
+        "graham": 66,
         "buffett": 0,
         "lynch": 18,
         "dividend": 18
       },
-      "reason": "総合(均等加重): 清原流:5, グレアム流:67, バフェット流:0, リンチ流:18, 配当・インカム流:18"
+      "reason": "総合(均等加重): 清原流:5, グレアム流:66, バフェット流:0, リンチ流:18, 配当・インカム流:18"
     }
   }
 }

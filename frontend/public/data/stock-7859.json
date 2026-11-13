@@ -7,17 +7,17 @@
     "sector17Code": "10",
     "marketSegment": "スタンダード",
     "scaleCategory": "-",
-    "updatedAt": "2026-11-12T17:09:21.098Z",
+    "updatedAt": "2026-11-13T16:45:57.204Z",
     "snapshots": [
       {
         "id": "static-7859",
-        "snapshotAt": "2026-11-12T17:09:21.098Z",
-        "marketCap": 5189214961,
+        "snapshotAt": "2026-11-13T16:45:57.204Z",
+        "marketCap": 4968823592,
         "netCash": null,
         "netCashRatio": null,
         "cashNeutralPer": null,
         "per": null,
-        "pbr": 0.6565302329200405
+        "pbr": 0.62864670951417
       }
     ]
   },
@@ -73,13 +73,13 @@
   ],
   "strategies": {
     "kiyohara": {
-      "score": 3,
+      "score": 5,
       "components": {
         "ncrScore": 0,
         "cnperScore": 0,
-        "sizeBonus": 3
+        "sizeBonus": 5
       },
-      "reason": "NCR=null, CNPER=null, 52億円、赤字キャップ → 対象外"
+      "reason": "NCR=null, CNPER=null, 50億円、赤字キャップ → 対象外"
     },
     "graham": {
       "score": 0,
@@ -98,7 +98,7 @@
         "qualityBonus": 0,
         "valuationPenalty": 0
       },
-      "reason": "ROE=n/a, PBR=0.66、赤字キャップ → 対象外"
+      "reason": "ROE=n/a, PBR=0.63、赤字キャップ → 対象外"
     },
     "lynch": {
       "score": 0,
@@ -121,13 +121,13 @@
     "composite": {
       "score": 1,
       "components": {
-        "kiyohara": 3,
+        "kiyohara": 5,
         "graham": 0,
         "buffett": 0,
         "lynch": 0,
         "dividend": 0
       },
-      "reason": "総合(均等加重): 清原流:3, グレアム流:0, バフェット流:0, リンチ流:0, 配当・インカム流:0"
+      "reason": "総合(均等加重): 清原流:5, グレアム流:0, バフェット流:0, リンチ流:0, 配当・インカム流:0"
     }
   }
 }
